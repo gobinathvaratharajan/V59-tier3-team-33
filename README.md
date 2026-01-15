@@ -39,7 +39,7 @@ coding!
 - Teammate name: Min Sik Hein (Direwen): [GitHub](https://github.com/Direwen) / [LinkedIn](https://www.linkedin.com/in/min-sik-hein/)
 - Bastien Winant: [GitHub](https://github.com/BastienWinant)
 - Roni Egbu: [GitHub](https://github.com/ronniiii-i) / [LinkedIn](https://linkedin.com/in/princess-roni-egbu)
-- Teammate name #2: [GitHub](https://github.com/ghaccountname) / [LinkedIn](https://linkedin.com/in/liaccountname)
+- Margaret Wu: [GitHub](https://github.com/margaretcwu) / [LinkedIn](https://linkedin.com/in/margaretcwu)
 
    ...
 - Teammate name #n: [GitHub](https://github.com/ghaccountname) / [LinkedIn](https://linkedin.com/in/liaccountname)
