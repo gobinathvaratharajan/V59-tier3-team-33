@@ -1,0 +1,45 @@
+# Chingu Voyage 59 - Tier 3 Team #33 — Vision Statement & Feature Planning Meeting
+
+**Date:** 17 January 2026  
+**Time:** 8:00 PM GMT-5 (Montreal)
+
+**Attendees**
+- Kayleigh
+- Rob
+- Margaret
+- Bastien
+- Chris
+- Direwen
+- Chanae
+
+**Agenda**
+1. Define vision statement for Itinerary planner
+2. Finalize tech stack selection
+3. Review and prioritize proposed features
+4. Brainstorm app names - not done
+
+**Vision Statement**
+Brainstorm
+Chris: A tool that helps organize trips into more manageable chunks (multi-city travel)
+Rob: what are the granular units?
+Kayleigh: more realistic... something
+Margaret: max # of locations, time management
+Kayleigh: Maximize trip enjoyment and potential
+ChatGPT: Helping travelers do more, see more, and stress less.
+
+**Decisions**
+1. Tech Stack: BE: Django, FastAPI, FE: TBD, some flavour of JS
+
+**Action Items**
+
+| Who | Deadline | Task | Status |
+| --- | --- | --- | --- |
+| Kayleigh | 17 Jan midnight ET | Upload meeting notes, updated decision log | Done |
+| Kayleigh | 21 Jan midnight ET | Add features to project backlog in Github project | Open |
+| Margaret |  | Build low-fidelity wireframe | Open |
+| Kayleigh |  | Plan wireframe review meeting | Open |
+
+**Next Steps**
+- Setup project backlog
+- Create low-fidelity wireframe
+- Review wireframe as a team

@@ -11,12 +11,12 @@ you like the best.
 | GoLang | | | | | | | x | | | |
 | JS (vanilla) | | | | | | | | | | |
 | NodeJS | | | | | | | | | | |
-| TypeScript | | | | | | x| |  x  | | |
+| TypeScript | | | | | | x | |  x  | | |
 | ExpressJS | | | | | | | | | | |
 | NestJS | | | | | | | | | | |
 | VueJS | | | | | | | x | | | |
 | Nuxt | | | | | | | x | | | |
-| React | | | | | | x| | x | | |
+| React | | | | | | x | | x | | |
 | Angular | | | | | | | | | | |
 | PHP | | | | | | | | | | |
 | COBOL 😂 | | | | | | | | | | |
