@@ -12,4 +12,4 @@ Use this file to vote on a name for our Itinerary planner!
 | JoyRoute | | | x |x| | | x | | |x |
 | Planora | | | | | | | x | | | |
 | Roamie | | | | | | | | x | | |
-| Roamly | | | | | | | | x | | |
+| Roamly | | | x | | | | | x | | |
