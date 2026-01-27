@@ -34,5 +34,5 @@
 | Who | Deadline | Task | Status |
 | --- | --- | --- | --- |
 | Kayleigh | 26 Jan midnight ET | Post meeting notes | Done |
-| Kayleigh | 26 Jan midnight ET | Create new wireframe task | Open |
+| Kayleigh | 26 Jan midnight ET | Create new wireframe task | Done |
 | Chris | 27 Jan midnight ET | Incorporate final feedback into Entity/DB schema ticket and close it | Open |
