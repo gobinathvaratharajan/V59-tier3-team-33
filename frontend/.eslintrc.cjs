@@ -12,9 +12,8 @@ module.exports = {
     "plugin:prettier/recommended",
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
-    // TODO: enable when compatible with `tailwindcss@4`
-    // "plugin:tailwindcss/recommended",
     "plugin:@next/next/recommended",
+    "plugin:storybook/recommended"
   ],
   overrides: [
     {

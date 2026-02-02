@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
-import { redirect } from "next/navigation";
 import { twMerge } from "tailwind-merge";
+
+import { Footer } from "@/components/Footer";
+import { Navigation } from "@/components/Navigation";
 
 import "./globals.css";
 
@@ -22,10 +24,6 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  if (typeof window === "undefined") {
-    // On server, redirect root to /dashboard
-    redirect("/dashboard");
-  }
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
@@ -38,7 +36,9 @@ export default function RootLayout({
         />
       </head>
       <body className={twMerge("bg-gray-50 dark:bg-gray-900", inter.className)}>
-        {children}
+        <Navigation />
+        <main className="min-h-screen">{children}</main>
+        <Footer />
       </body>
     </html>
   );
