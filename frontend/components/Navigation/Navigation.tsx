@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React, { useState } from "react";
-import { FaBars, FaShoppingCart, FaTimes, FaUser } from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
 import { twMerge } from "tailwind-merge";
 import { Button } from "../Button";
 import { Logo } from "../Logo";
@@ -19,22 +19,6 @@ export interface NavigationProps {
    */
   links?: NavigationLink[];
   /**
-   * Show cart button
-   */
-  showCart?: boolean;
-  /**
-   * Cart item count
-   */
-  cartCount?: number;
-  /**
-   * Show user button
-   */
-  showUser?: boolean;
-  /**
-   * User name (if logged in)
-   */
-  userName?: string;
-  /**
    * Sticky navigation bar
    */
   sticky?: boolean;
@@ -42,14 +26,6 @@ export interface NavigationProps {
    * Custom className
    */
   className?: string;
-  /**
-   * Cart button click handler
-   */
-  onCartClick?: () => void;
-  /**
-   * User button click handler
-   */
-  onUserClick?: () => void;
 }
 
 /**

@@ -25,30 +25,16 @@ test("renders custom navigation links", () => {
   expect(screen.getByRole("link", { name: /itineraries/i })).toBeDefined();
 });
 
-test("displays cart count badge when showCart is true", () => {
-  render(<Navigation showCart cartCount={5} />);
-  expect(screen.getByText("5")).toBeDefined();
+test("renders Login button", () => {
+  render(<Navigation />);
+  const loginButtons = screen.getAllByText(/login/i);
+  expect(loginButtons.length).toBeGreaterThan(0);
 });
 
-test("displays 9+ when cart count exceeds 9", () => {
-  render(<Navigation showCart cartCount={15} />);
-  expect(screen.getByText("9+")).toBeDefined();
-});
-
-test("renders login button when user is not logged in", () => {
-  render(<Navigation showUser />);
-  expect(screen.getByRole("button", { name: /login/i })).toBeDefined();
-});
-
-test("renders user name when logged in", () => {
-  render(<Navigation showUser userName="John Doe" />);
-  expect(screen.getByText(/john doe/i)).toBeDefined();
-});
-
-test("does not render cart when showCart is false", () => {
-  render(<Navigation showCart={false} />);
-  const cartButtons = screen.queryAllByLabelText(/shopping cart/i);
-  expect(cartButtons.length).toBe(0);
+test("renders Get Started button", () => {
+  render(<Navigation />);
+  const getStartedButtons = screen.getAllByText(/get started/i);
+  expect(getStartedButtons.length).toBeGreaterThan(0);
 });
 
 test("toggles mobile menu", async () => {
@@ -58,7 +44,7 @@ test("toggles mobile menu", async () => {
   const menuButton = screen.getByLabelText(/toggle menu/i);
   await user.click(menuButton);
 
-  // Mobile menu should be visible
+  // Mobile menu should be visible - check for multiple instances of links
   const mobileLinks = screen.getAllByRole("link", { name: /home/i });
   expect(mobileLinks.length).toBeGreaterThan(1); // Desktop + Mobile
 });

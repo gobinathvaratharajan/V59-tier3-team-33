@@ -23,6 +23,10 @@ export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElemen
    */
   iconOnly?: boolean;
   /**
+   * Full width button
+   */
+  fullWidth?: boolean;
+  /**
    * Button content
    */
   children?: React.ReactNode;
@@ -43,6 +47,7 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
       round = false,
       icon,
       iconOnly = false,
+      fullWidth = false,
       children,
       className,
       disabled,
@@ -81,6 +86,7 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
       variantClasses[variant],
       sizeClasses[size],
       radiusClasses,
+      fullWidth && "w-full",
       className,
     );
 

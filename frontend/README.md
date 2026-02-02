@@ -14,6 +14,24 @@ pnpm dev
 bun dev
 ```
 
+### 🚀 Quick Commands
+
+```bash
+# View Components in Storybook (already running)
+npm run storybook              # → http://localhost:6006
+
+# Run Development Server (already running)
+npm run dev                    # → http://localhost:3001
+
+# Run Tests (needs dependencies)
+npm install --save-dev @testing-library/react @testing-library/user-event @testing-library/jest-dom @vitejs/plugin-react jsdom
+npm test                       # Watch mode
+npm run test:run               # Single run
+
+# Build for Production
+npm run build
+npm run start
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
